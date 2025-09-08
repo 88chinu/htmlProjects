@@ -1,0 +1,61 @@
+<!-- Suvrey Form Using HTML & CSS -->
+<!DOCTYPE>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <!-- <tittle>Survey Form</tittle> -->
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form action="submit" id="form">
+            <div class="form-group">
+                <lable for="name" id="name" >Name</lable>
+                <input type="type" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="age" id="number">Age</label>
+                <input type="number" name="age" id="age" min="10" max="70" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <lable for="dropdown" id="dropdown">Which option best for you:</lable>
+                <select id="dropdown" name="dropdown">
+                    <option value="student">Student</option>
+                    <option value="inten">Intern</option>
+                    <option value="job">Job</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="checkbox" id="checkbox">Which Language you known</label>
+                <input type="checkbox" name="checkbox" value="HTML">HTML
+                <input type="checkbox" name="checkbox" value="CSS">CSS
+                <input type="checkbox" name="checkbox" value="JavaScript">JavaScript
+                <input type="checkbox" name="checkbox" value="C/C++">C/C++
+                <input type="checkbox" name="checkbox" value="Python">Python
+                <input type="checkbox" name="checkbox" value="Java">Java
+                <input type="checkbox" name="checkbox" value="React">React
+            </div>
+            <div class="form-group">
+                <label for="checkbox" id="checkbox">Which Language you want to Learn </label>
+                <input type="checkbox" id="checkbox" name="checkbox" value="HTML">HTML
+                <input type="checkbox" id="checkbox" name="checkbox" value="CSS">CSS
+                <input type="checkbox" id="checkbox" name="checkbox" value="JavaScript">JavaScript
+                <input type="checkbox" id="checkbox" name="checkbox" value="C/C++">C/C++
+                <input type="checkbox" id="checkbox" name="checkbox" value="Python">Python
+                <input type="checkbox" id="checkbox" name="checkbox" value="Java">Java
+                <input type="checkbox" id="checkbox" name="checkbox" value="React">React
+            </div>
+            <div class="form-group">
+                <label for="comment">Any Suggesion</label>
+                <textarea name="comment" id="comment" placeholder="Enter your comment here.."></textarea>
+                <button id="submit" value="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

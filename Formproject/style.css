@@ -1,0 +1,57 @@
+/* CSS of Survey Form */
+body{
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-weight: 200;
+    background-color: rgb(133, 253, 193);
+    text-align: center;
+}
+title{
+    font-size: x-large;
+}
+h1{
+    font-size: large;
+}
+form{
+    background-color: lightskyblue;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 20px gray;
+}
+.form-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-group input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
