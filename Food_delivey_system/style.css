@@ -1,40 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
+/* style.css */
+
+/*CSS Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
 }
-#top{
-    color:aquamarine;
+
+/*Header Styling*/
+#top {
+    color: rgb(245, 10, 10);
     text-align: center;
-    font-size: 50px;
-    font-family: 'Poppins';
+    font-size: 46px;
+    font-family: 'Ubuntu Mono', monospace;
 }
-#top1{
-    color:bisque;
+
+#top1 {
     text-align: center;
-    font-size: 30px;
-    font-family: 'Poppins';
+    color: black;
+    font-size: 21px;
+    font-family: 'Ubuntu Mono', monospace;
 }
-#navebar img{
+
+/* Navigation bar styling*/
+/*Navbar image styling*/
+#navbar img {
     display: block;
     width: 50px;
+    height: 50px;
     margin: auto;
-    margin-bottom:5px;
+    margin-bottom: 3px;
 }
+
+/*Navbar Functionality*/
 #navbar {
     display: flex;
     flex-direction: column;
     background-color: gray;
     height: 14vh;
     width: 100vw;
-    font-family: 'Poppins';
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 10px;
     border: 2px solid black;
     border-radius: 15px;
 }
+
+/*Navbar content functionality*/
 #navcontent {
     display: flex;
     justify-content: center;
 }
+
+/*Navbar content styling*/
 ul li {
     list-style: none;
     margin: 15px;
@@ -52,6 +68,8 @@ ul li a:hover {
     background-color: red;
     border-radius: 10px;
 }
+
+/* website background image designing */
 #container1 {
     position: relative;
     display: flex;
@@ -60,6 +78,8 @@ ul li a:hover {
     width: 100vw;
     height: 63vh;
 }
+
+/*Setting the background image using before pseudo selector*/
 #container1::before {
     content: '';
     background: url("https://media.geeksforgeeks.org/wp-content/uploads/20240711124309/8513909_3941598-(2).jpg") no-repeat center center/cover;
@@ -206,13 +226,7 @@ ul li a:hover {
 
 /*Designing the footer*/
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+    text-align: center;
 }
 
 /*Designing of Contact Us*/
